@@ -1,0 +1,15 @@
+{
+  "_id": "mElena02qMCwonqW",
+  "name": "Datos Personajes",
+  "type": "script",
+  "img": "icons/svg/d20-black.svg",
+  "scope": "global",
+  "command": "const api = game.modules.get(\"macros-elena\")?.api;\nif (!api) ui.notifications.warn(\"Activa el módulo «Macros de Elena» para usar esta macro.\");\nelse api.datosPJ();",
+  "folder": null,
+  "sort": 300000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!macros!mElena02qMCwonqW"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "mElena001WVBUcfx",
+  "name": "Actualizar Proezas",
+  "type": "script",
+  "img": "icons/svg/upgrade.svg",
+  "scope": "global",
+  "command": "const api = game.modules.get(\"macros-elena\")?.api;\nif (!api) ui.notifications.warn(\"Activa el módulo «Macros de Elena» para usar esta macro.\");\nelse api.actualizarProezas();",
+  "folder": null,
+  "sort": 100000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!macros!mElena001WVBUcfx"
+}

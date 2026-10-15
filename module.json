@@ -1,0 +1,33 @@
+{
+  "id": "macros-elena",
+  "title": "Macros de Elena",
+  "description": "Macros de partida para Ysystem (Custom System Builder): resúmenes de PJs, defectos, proezas y escena rápida. Activa o desactiva el módulo para tenerlas o no en cada mundo.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Elena"
+    }
+  ],
+  "url": "https://github.com/egparraga/macros-elena",
+  "manifest": "https://github.com/egparraga/macros-elena/releases/latest/download/module.json",
+  "download": "https://github.com/egparraga/macros-elena/releases/download/v1.0.0/macros-elena.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.369"
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Macros de Elena",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}

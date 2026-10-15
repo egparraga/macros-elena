@@ -1,0 +1,15 @@
+{
+  "_id": "mElena03vkJcg6I1",
+  "name": "Estado PJs (actualizable)",
+  "type": "script",
+  "img": "icons/svg/card-joker.svg",
+  "scope": "global",
+  "command": "const api = game.modules.get(\"macros-elena\")?.api;\nif (!api) ui.notifications.warn(\"Activa el módulo «Macros de Elena» para usar esta macro.\");\nelse api.estadoPJs();",
+  "folder": null,
+  "sort": 400000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!macros!mElena03vkJcg6I1"
+}
