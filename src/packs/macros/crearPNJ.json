@@ -1,0 +1,15 @@
+{
+  "_id": "mElena05PnjAleat",
+  "name": "Crear PNJ",
+  "type": "script",
+  "img": "icons/svg/mystery-man.svg",
+  "scope": "global",
+  "command": "const api = game.modules.get(\"macros-elena\")?.api;\nif (!api) ui.notifications.warn(\"Activa el módulo «Macros de Elena» para usar esta macro.\");\nelse api.crearPNJ();",
+  "folder": null,
+  "sort": 600000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!macros!mElena05PnjAleat"
+}

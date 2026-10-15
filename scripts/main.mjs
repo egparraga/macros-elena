@@ -1,3 +1,5 @@
+import { crearPNJ } from "./crear-pnj.mjs";
+
 const MODULE_ID = "macros-elena";
 const { DialogV2 } = foundry.applications.api;
 
@@ -184,7 +186,7 @@ async function escenaRapida() {
 
 /* -------------------------------------------- */
 
-const api = { actualizarProezas, defectos, datosPJ, estadoPJs, escenaRapida };
+const api = { actualizarProezas, defectos, datosPJ, estadoPJs, escenaRapida, crearPNJ };
 
 Hooks.once("init", () => {
   game.modules.get(MODULE_ID).api = api;
